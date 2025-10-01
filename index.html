@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laddie Jemiah Santos | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Laddie<span>   Santos</span></div>
+
+    <!-- Mobile Menu Icon -->
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <nav id="navMenu">
+      <ul>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Laddie Jemiah Santos</span></h1>
+      <p>Aspiring IT Student | Future Web Developer</p>
+    </div>
+    <div class="hero-img">
+      <img src="images/profile.jpg" alt="Laddie Jemiah Santos">
+    </div>
+  </div>
+</section>
+
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm Laddie Jemiah Santos, an Information Technology student passionate about 
+          web development, software engineering, and learning new technologies.  
+          My goal is to create impactful and user-friendly applications.
+        </p>
+      </div>
+      <div class="about-details">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Responsive Web Design</li>
+          <li>Basic PHP & MySQL</li>
+          <li>UI/UX Design Principles</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Personal Website</h3>
+        <p>A simple and responsive portfolio website using semantic HTML5, CSS3, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Todo App</h3>
+        <p>A task management app that helps track daily activities and goals.</p>
+      </div>
+      <div class="card">
+        <h3>Mini Blog</h3>
+        <p>A blogging platform prototype built with HTML, CSS, and a little JS.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Laddie Jemiah Santos. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
