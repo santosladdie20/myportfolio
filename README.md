@@ -2,9 +2,9 @@
 I'm Laddie Jemiah Santos, an Information Technology student passionate about web development, software engineering, and learning new technologies. My goal is to create impactful and user-friendly applications.
 # Skills
 *HTML, CSS, JavaScript
-*Responsive Web Design
-*Basic PHP & MySQL
-*UI/UX Design Principles
+* Responsive Web Design
+* Basic PHP & MySQL
+* UI/UX Design Principles
 # Projects
 *Personal Website A simple and responsive portfolio website using semantic HTML5, CSS3, and JavaScript.
 *To do App A task management app that helps track daily activities and goals.
