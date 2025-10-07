@@ -11,7 +11,7 @@ I'm Laddie Jemiah Santos, an Information Technology student passionate about web
 *Mini Blog A blogging platform prototype built with HTML, CSS, and a little JS.
 # Live Site 
 My Portfolio: https://santosladdie20.github.io/myportfolio/
-#Technology Used
+# Technology Used
 *Visual Studio Code
 *Github
 # Contact Number
